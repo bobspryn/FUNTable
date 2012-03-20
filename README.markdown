@@ -4,7 +4,7 @@ This simple bit of code lets you easily adjust the size and scroll position of y
 
 *Note that if you need the table to scroll to a particular cell, you MUST pass it to the method so it knows where to scroll to. Otherwise you can pass nil*.
 
-Simply extend your tableViews with this (either in code or interface builder), and then call these methods on keyboard notifications. : 
+Simply extend your tableViews with `FUNTableView` (either in code or interface builder), and then call these methods on keyboard notifications. : 
 
 	- (void)adjustTableViewForKeyboardwithCell:(UITableViewCell *)cell userInformation:(NSDictionary *)userInfo;
 	- (void)adjustTableViewNoKeyboardWithUserInformation:(NSDictionary *)userInfo scrollToOriginalCell:(BOOL)shouldScroll;
