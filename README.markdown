@@ -11,7 +11,7 @@ Simply extend your tableViews with `FUNTableView` (either in code or interface b
 
 ##Example usage from a tableViewController: 
 
-[Example Screencast](http://screencast.com/t/mo6gikvsYb)
+[Example Screencast](http://www.screencast.com/t/ybEHVqzwSSq)
 
 In this example I have two tables visible on an iPad screen. One for entering search criteria, and one for displaying results. Both need to be adjusted size wise when the keyboard is activated, but only the table with entry needs to scroll to a particular cell, so I pass a reference to it:
 
