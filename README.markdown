@@ -1,3 +1,9 @@
+#UPDATE
+
+There are different ways to approach this kind of thing these days, and flaws with this approach. 1) I wouldn't adjust the frame of the table view anymore, but the `contentInset` instead. 2) You could use the `convertRect` method to do the positioning math.
+
+I wouldn't use this anymore.
+
 #FUNTable
 
 This simple bit of code lets you easily adjust the size and scroll position of your tables to account for the keyboard showing and hiding. This is useful both for keeping a cell that you are currently entering data into visible when the keyboard activate, and for keeping all the content in a table visible even if you aren't editing it. 
